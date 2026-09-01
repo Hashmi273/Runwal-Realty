@@ -1,0 +1,29 @@
+{
+  "name": "runwal-realty",
+  "version": "1.0.0",
+  "description": "Runwal Realty website - a brand operated by EVENTRIC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -c script.js"
+  },
+  "keywords": [
+    "runwal-realty",
+    "eventric",
+    "real-estate",
+    "luxury-residences",
+    "mumbai",
+    "thane",
+    "pune"
+  ],
+  "author": "WASIM HASHMI (EVENTRIC)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hashmi273/Runwal-Realty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hashmi273/Runwal-Realty/issues"
+  },
+  "homepage": "https://hashmi273.github.io/Runwal-Realty/"
+}

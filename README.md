@@ -1,70 +1,96 @@
-# Runwal Realty Website Clone (Same-to-Same Replica)
+# RUNWAL REALTY — Luxury Real Estate Web Platform
 
-A faithful, pixel-accurate, and fully responsive clone of [Runwal Realty](https://runwalrealty.com/) created using clean HTML5, modern CSS3, and interactive vanilla JavaScript.
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://hashmi273.github.io/Runwal-Realty/)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![HTML5 / CSS3 / Vanilla JS](https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JS-orange)](#)
 
-## Features Included
+> **Live Website URL:** [https://hashmi273.github.io/Runwal-Realty/](https://hashmi273.github.io/Runwal-Realty/)
 
-- **Header & Navigation System**:
-  - Top luxury navigation bar with interactive dropdown menus: *About Us*, *Our Projects*, *NRI Corner*, *Club Oasis*, *Investors*, *Customer Corner*, *Careers*, and *Contact Us*.
-  - Fixed/sticky header with luxury blur background, animated hamburger trigger, and high-res Runwal emblem logo.
-  - Fullscreen navigation drawer overlay with categorized links.
-  - Floating "Project Sales Enquiry" slider with expandable phone number (`022-62328585`).
-  - Top "Enquire Now" CTA button.
+A luxury, responsive real estate web application replicating the design language of **RUNWAL REALTY**, fully engineered for GitHub Pages static hosting and transparent business verification (Meta / Facebook Business Verification).
 
-- **Hero Banner**:
-  - Fullscreen luxury hero image with responsive desktop and mobile art direction.
-  - Hero headline: *"Built on our Legacy. Built for the Future."*
-  - Animated bouncing *"Scroll to Discover"* indicator.
+---
 
-- **About & Statistics Section**:
-  - Brand summary for Mumbai, Thane & Pune real estate development.
-  - Animated numerical counters:
-    - **48+** Years of the 'Runwal' brand
-    - **35+** Completed Projects
-    - **22+** Awards & Accolades
+## 🏛️ Legal Entity & Business Information
 
-- **Portfolio Pillars ("Our Real Estate Projects")**:
-  - **Residential**, **Commercial**, and **Retail** cards with image zoom on hover and slide-up descriptions.
+This website strictly maintains the following business identity across all public-facing pages, headers, footers, legal pages, forms, and structured schema:
 
-- **Ongoing Projects Interactive Slider**:
-  - Dynamic tabs: *Residential*, *Commercial*, and *Retail*.
-  - Projects featured: *Runwal Malabar*, *Runwal Auris*, *Runwal Raaya*, *Runwal One*, *Runwal Lands End*, *Runwal Zenith*, *Runwal Timeless*, *Runwal Rare*, *Runwal Sanctuary*, *Runwal The Central Park*, *R Square Andheri*, *R Square Mulund*, *R City*, *R Mall*, *R Odeon*.
-  - Gold circular Next and Prev arrow controls.
+| Attribute | Specification |
+| :--- | :--- |
+| **Customer-Facing Brand** | **RUNWAL REALTY** |
+| **Operating Statement** | *Runwal Realty is a brand operated by EVENTRIC.* |
+| **Operating / Trade Name** | **EVENTRIC** |
+| **Legal Entity Name** | **WASIM HASHMI** |
+| **Business Constitution** | **Proprietorship** |
+| **GSTIN** | **27AOGPH6435N2ZI** |
+| **Principal Place of Business / Registered Office** | **Shop No. 18, 1st Floor, Evershine Mall Co-op Society Ltd, Link Road, Near Chincholi Bunder Signal, Malad West, Mumbai, Maharashtra – 400064.** |
 
-- **Video Testimonials**:
-  - Real customer family stories with play buttons and interactive video modal lightbox popup.
+---
 
-- **Media & Press Highlights**:
-  - Press items from *The Economic Times*, *Forbes India*, *Exchange4Media*, *CNBC-TV18*, and *Free Press Journal*.
+## 🚀 How to Enable GitHub Pages (Live Deployment)
 
-- **Frequently Asked Questions**:
-  - Smooth expandable/collapsible accordions with gold accent indicators.
+This repository is pre-configured with `.nojekyll`, `404.html`, and a GitHub Actions workflow for zero-config deployment.
 
-- **Editorial Brand Story**:
-  - Expandable *"Read More / Read Less"* brand history section with SEBI DRHP filing citation.
+### Option A: Standard Branch Deployment (Recommended)
+1. Go to your GitHub repository: [https://github.com/Hashmi273/Runwal-Realty](https://github.com/Hashmi273/Runwal-Realty)
+2. Click on **Settings** (top navigation tab).
+3. In the left sidebar, click on **Pages**.
+4. Under **Build and deployment** &rarr; **Source**, select **Deploy from a branch**.
+5. Under **Branch**, select `main` and folder `/ (root)`, then click **Save**.
+6. Within 60 seconds, your site will be live at:  
+   👉 **`https://hashmi273.github.io/Runwal-Realty/`**
 
-- **Luxury Multi-Column Footer**:
-  - Corporate address, phones, email, social media links.
-  - Quick links for all business verticals, customer services, and micro-markets (*"Find Your Home"*).
+### Option B: GitHub Actions Workflow
+- A pre-configured workflow is included at `.github/workflows/deploy.yml`. In **Settings** &rarr; **Pages**, select **GitHub Actions** as the source for automatic builds on every commit.
 
-- **Modals & Overlays**:
-  - **Enquire Now modal** with form validation.
-  - **Video lightbox modal** for YouTube embeds.
-  - **Disclaimer modal** for group transition with session dismissal.
-  - **Back-to-top floating button**.
+---
 
-## How to View and Run
+## 📁 Repository Structure
 
-You can directly open `index.html` in any modern web browser:
-
-```powershell
-Start-Process "C:\Users\Admin\.gemini\antigravity\scratch\runwal-realty-clone\index.html"
+```text
+Runwal-Realty/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml            # Automated GitHub Pages CI/CD workflow
+├── .gitignore                    # Git ignore rules
+├── .nojekyll                     # Bypasses Jekyll processing on GitHub Pages
+├── 404.html                      # Luxury branded 404 error page
+├── index.html                    # Main landing page with full sections & JSON-LD schema
+├── terms-conditions.html         # Dedicated Terms & Conditions with Business Identification
+├── privacy-policy.html           # Dedicated Privacy Policy identifying EVENTRIC / WASIM HASHMI
+├── styles.css                    # Luxury CSS3 design system (Gold #AA8A4B, Navy #0A2342)
+├── script.js                     # Interactive carousel, tabs, modals, and counter animations
+├── server.js                     # Optional lightweight Node.js local preview server
+├── package.json                  # NPM project manifest
+└── README.md                     # Documentation & GitHub Pages guide
 ```
 
-Or start a lightweight local web server:
+---
 
-```powershell
-cd C:\Users\Admin\.gemini\antigravity\scratch\runwal-realty-clone
-python -m http.server 3000
+## 💻 Local Development
+
+Clone the repository and run locally:
+
+```bash
+# Clone repository
+git clone https://github.com/Hashmi273/Runwal-Realty.git
+cd Runwal-Realty
+
+# Run with Node.js
+npm start
+# Server runs at http://localhost:3000
 ```
-Then visit: [http://localhost:3000](http://localhost:3000)
+
+Alternatively, open `index.html` directly in any web browser.
+
+---
+
+## ⚖️ Legal & Meta Verification Trust Signals
+
+- **No false ownership claims**: Uses strictly *"Runwal Realty is a brand operated by EVENTRIC."*
+- **Accurate GST Record**: GST registration details match the official GSTIN `27AOGPH6435N2ZI` under legal name `WASIM HASHMI` and trade name `EVENTRIC`.
+- **JSON-LD Schema**: Machine-readable `RealEstateAgent` schema embedded in `<head>` for automated verification bots.
+
+---
+
+&copy; 2026 RUNWAL REALTY. All Rights Reserved.  
+*Runwal Realty is a brand operated by EVENTRIC.*
