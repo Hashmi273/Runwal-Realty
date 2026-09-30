@@ -17,12 +17,12 @@ This website strictly maintains the following business identity across all publi
 | Attribute | Specification |
 | :--- | :--- |
 | **Customer-Facing Brand** | **RUNWAL REALTY** |
-| **Operating Statement** | *Runwal Realty is a brand operated by EVENTRIC.* |
-| **Operating / Trade Name** | **EVENTRIC** |
-| **Legal Entity Name** | **WASIM HASHMI** |
+| **Operating Statement** | *Runwal Realty is a brand operated by MOHAMMED MAINUDDIN SHAIKH by ALLCOMMSOLUTION.* |
+| **Operating / Trade Name** | **ALLCOMMSOLUTION** |
+| **Legal Entity Name** | **MOHAMMED MAINUDDIN SHAIKH** |
 | **Business Constitution** | **Proprietorship** |
-| **GSTIN** | **27AOGPH6435N2ZI** |
-| **Principal Place of Business / Registered Office** | **Shop No. 18, 1st Floor, Evershine Mall Co-op Society Ltd, Link Road, Near Chincholi Bunder Signal, Malad West, Mumbai, Maharashtra – 400064.** |
+| **GSTIN** | **27NFNPS4802B1Z5** |
+| **Principal Place of Business / Registered Office** | **GROUND, CEN SHOP 130(3), PRABHAT SEVA SOC, JAGDISH SHETTY MARG, GANESH NAGAR CHARKOP KANDIWALI (W), Mumbai, Mumbai Suburban, Maharashtra, 400067.** |
 
 ---
 
@@ -56,7 +56,7 @@ Runwal-Realty/
 ├── 404.html                      # Luxury branded 404 error page
 ├── index.html                    # Main landing page with full sections & JSON-LD schema
 ├── terms-conditions.html         # Dedicated Terms & Conditions with Business Identification
-├── privacy-policy.html           # Dedicated Privacy Policy identifying EVENTRIC / WASIM HASHMI
+├── privacy-policy.html           # Dedicated Privacy Policy identifying ALLCOMMSOLUTION / MOHAMMED MAINUDDIN SHAIKH
 ├── styles.css                    # Luxury CSS3 design system (Gold #AA8A4B, Navy #0A2342)
 ├── script.js                     # Interactive carousel, tabs, modals, and counter animations
 ├── server.js                     # Optional lightweight Node.js local preview server
@@ -86,11 +86,11 @@ Alternatively, open `index.html` directly in any web browser.
 
 ## ⚖️ Legal & Meta Verification Trust Signals
 
-- **No false ownership claims**: Uses strictly *"Runwal Realty is a brand operated by EVENTRIC."*
-- **Accurate GST Record**: GST registration details match the official GSTIN `27AOGPH6435N2ZI` under legal name `WASIM HASHMI` and trade name `EVENTRIC`.
+- **No false ownership claims**: Uses strictly *"Runwal Realty is a brand operated by MOHAMMED MAINUDDIN SHAIKH by ALLCOMMSOLUTION."*
+- **Accurate GST Record**: GST registration details match the official GSTIN `27NFNPS4802B1Z5` under legal name `MOHAMMED MAINUDDIN SHAIKH` and trade name `ALLCOMMSOLUTION`.
 - **JSON-LD Schema**: Machine-readable `RealEstateAgent` schema embedded in `<head>` for automated verification bots.
 
 ---
 
 &copy; 2026 RUNWAL REALTY. All Rights Reserved.  
-*Runwal Realty is a brand operated by EVENTRIC.*
+*Runwal Realty is a brand operated by MOHAMMED MAINUDDIN SHAIKH by ALLCOMMSOLUTION.*

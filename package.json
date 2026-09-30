@@ -1,7 +1,7 @@
 {
   "name": "runwal-realty",
   "version": "1.0.0",
-  "description": "Runwal Realty website - a brand operated by EVENTRIC",
+  "description": "Runwal Realty website - a brand operated by ALLCOMMSOLUTION",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,14 +9,14 @@
   },
   "keywords": [
     "runwal-realty",
-    "eventric",
+    "allcommsolution",
     "real-estate",
     "luxury-residences",
     "mumbai",
     "thane",
     "pune"
   ],
-  "author": "WASIM HASHMI (EVENTRIC)",
+  "author": "MOHAMMED MAINUDDIN SHAIKH (ALLCOMMSOLUTION)",
   "license": "ISC",
   "repository": {
     "type": "git",
